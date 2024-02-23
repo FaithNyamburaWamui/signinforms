@@ -1,34 +1,41 @@
 #container{
     border: none;
     display: grid;
-    grid-template-columns: 50px, 50px;
-    padding: 80px;
     margin: auto;
+    grid-template-columns:  50% 50%;
+    padding-top: 100px;
+
     
 }
 
-undraw{
+.undraw{
     border: none;
-    border-right: solid plum;
+    margin: auto;
+    border-right: solid purple 3px;
 
 }
 
-input{
-    padding: 12px 12px;
-    border-radius: 6px;
 
-}
 
 .form{
     border: none;
-    margin: auto;
+    padding-left: 100px;
+
 
 }
 
-.button{
-    padding: 5px 5px;
-    width: 90%;
+button{
+    padding: 12px 22px;
+    width: 65%;
     color: azure;
     background-color: blueviolet;
+    
 }
 
+
+.input{
+    padding: 12px 22px;
+    border-radius: 6px;
+    width: 60%;
+
+}
